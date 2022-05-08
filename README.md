@@ -5,4 +5,5 @@
 - React Typescript - (Front-end)
 - React Javascript - (Front-end)
 
-Each folder has a file `modules.txt` which contains script for installing libs for correct work of linters
+`modules.txt` file contains script for installing libs for correct work of linters.
+`scripts.txt` file contains scripts which can help to find and debug errors.
