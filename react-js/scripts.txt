@@ -1,0 +1,3 @@
+"prettier": "prettier -w .",
+"lint": "eslint -c .eslintrc src --ext .js,.jsx,.ts,.tsx",
+"lint:fix": "yarn lint --fix"

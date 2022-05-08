@@ -1,0 +1,3 @@
+"prettier": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+"lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
+"lint:fix": "yarn lint --fix"

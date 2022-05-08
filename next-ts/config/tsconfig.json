@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["app/assets/*"],
+
+      "@components/*": ["app/components/*", "app/components/*/index"],
+
+      "@configs": ["app/configs/index"],
+      "@configs/*": ["app/configs/*"],
+
+      "@hooks": ["app/hooks/index"],
+      "@hooks/*": ["app/hooks/*"],
+
+      "@pages": ["app/pages/index"],
+      "@pages/*": ["app/pages/*"],
+
+      "@services": ["app/services/index"],
+      "@services/*": ["app/services/*"],
+
+      "@store": ["app/store/index"],
+      "@store/*": ["app/store/*"],
+
+      "@types": ["app/types/index"],
+      "@types/*": ["app/types/*"],
+
+      "@utils": ["app/utils/index"],
+      "@utils/*": ["app/utils/*"],
+
+      "@*": ["app/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

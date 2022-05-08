@@ -1,0 +1,1 @@
+yarn add -D eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript prettier @trivago/prettier-plugin-sort-imports stylelint stylelint-order postcss postcss-scss

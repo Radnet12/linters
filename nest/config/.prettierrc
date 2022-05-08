@@ -1,0 +1,23 @@
+{
+  "trailingComma": "none",
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "(.module)$",
+    "(.controller)$",
+    "(.service)$",
+
+    "^@configs(/.*)?$",
+    "^@declarations(/.*)?$",
+    "^@decorators(/.*)?$",
+    "^@guards(/.*)?$",
+    "^@models(/.*)?$",
+    "^@pipes(/.*)?$",
+    "^@strategies(/.*)?$",
+
+    "^..(/.*)?$",
+    "^.(/.*)?$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderParserPlugins": ["typescript", "decorators-legacy"]
+}

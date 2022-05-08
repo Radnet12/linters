@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+
+      "@components/*": ["src/components/*", "src/components/*/index"],
+
+      "@configs": ["src/configs/index"],
+      "@configs/*": ["src/configs/*"],
+
+      "@hooks": ["src/hooks/index"],
+      "@hooks/*": ["src/hooks/*"],
+
+      "@pages": ["src/pages/index"],
+      "@pages/*": ["src/pages/*"],
+
+      "@services": ["src/services/index"],
+      "@services/*": ["src/services/*"],
+
+      "@store": ["src/store/index"],
+      "@store/*": ["src/store/*"],
+
+      "@types": ["src/types/index"],
+      "@types/*": ["src/types/*"],
+
+      "@utils": ["src/utils/index"],
+      "@utils/*": ["src/utils/*"],
+
+      "@*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
