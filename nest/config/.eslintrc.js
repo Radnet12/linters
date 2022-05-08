@@ -34,7 +34,7 @@ module.exports = {
     // Кавычки
     quotes: ["warn", "double"],
     // Отступы
-    indent: ["warn", 2],
+    // indent: ["warn", 2],
     // Гетеры всегда должны что-то возвращать
     "getter-return": "warn",
     // Неправильные условия в цикле for
@@ -110,7 +110,7 @@ module.exports = {
     // Обязательно нужно использовать this. (в основном, в статических методах)
     // "class-methods-use-this": "warn",
     // Код стайлинг для условий/циклов
-    curly: ["warn", "multi", "consistent"],
+    // curly: ["warn", "multi", "consistent"],
     // В switch case обязательно должен быть default
     "default-case": "error",
     // default в switch case должен быть последним
@@ -233,12 +233,12 @@ module.exports = {
     "eol-last": ["warn", "always"],
     "func-call-spacing": ["warn", "never"],
     "function-call-argument-newline": ["warn", "consistent"],
-    "function-paren-newline": ["warn", "consistent"],
+    // "function-paren-newline": ["warn", "consistent"],
     "generator-star-spacing": ["warn", "after"],
     // "implicit-arrow-linebreak": ["warn", "beside"],
     "key-spacing": ["warn", { beforeColon: false, afterColon: true }],
     "keyword-spacing": ["warn", { before: true, after: true }],
-    "line-comment-position": ["warn", "above"],
+    // "line-comment-position": ["warn", "above"],
     "lines-between-class-members": ["warn", "always"],
     "max-statements-per-line": ["warn", { max: 1 }],
     "newline-per-chained-call": "warn",
@@ -250,7 +250,7 @@ module.exports = {
     "object-curly-newline": ["warn", { consistent: true }],
     "object-curly-spacing": ["warn", "always"],
     "object-property-newline": ["warn", { allowAllPropertiesOnSameLine: true }],
-    "operator-linebreak": ["warn", "after"],
+    // "operator-linebreak": ["warn", "after"],
     "rest-spread-spacing": ["warn", "never"],
     // Точки с запятой
     "semi-spacing": ["warn", { before: false, after: true }],
