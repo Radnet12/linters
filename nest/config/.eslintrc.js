@@ -21,6 +21,23 @@ module.exports = {
       typescript: {}
     }
   },
+  globals: {
+    window: "readonly",
+    document: "readonly",
+    localStorage: "writable",
+    sessionStorage: "writable",
+    FormData: "readonly",
+    navigator: "readonly",
+    requestAnimationFrame: "readonly",
+    console: "readonly",
+    require: "writable",
+    module: "writable",
+    process: "readonly",
+    URLSearchParams: "readonly",
+    URL: "readonly",
+    setTimeout: "writable",
+    Set: "writable"
+  },
   rules: {
     // DEFAULT RULES
     "@typescript-eslint/interface-name-prefix": "off",
@@ -94,7 +111,7 @@ module.exports = {
     // Отрицание всегда должно применятся к выражению. Поэтому нужно использовать скобки
     "no-unsafe-negation": "warn",
     // Не допускаются не используемые приватные переменные в классах
-    "no-unused-private-class-members": "error",
+    // "no-unused-private-class-members": "error",
     // Никаких неиспользуемых переменных
     // "no-unused-vars": "warn",
     // Нельзя использовать сущность до её определения
@@ -241,7 +258,7 @@ module.exports = {
     // "line-comment-position": ["warn", "above"],
     "lines-between-class-members": ["warn", "always"],
     "max-statements-per-line": ["warn", { max: 1 }],
-    "newline-per-chained-call": "warn",
+    // "newline-per-chained-call": "warn",
     "no-multi-spaces": "warn",
     "no-multiple-empty-lines": ["warn", { max: 1 }],
     "no-trailing-spaces": "warn",
@@ -262,7 +279,7 @@ module.exports = {
     "switch-colon-spacing": ["warn", { before: false, after: true }],
     "template-curly-spacing": ["warn", "never"],
     "wrap-iife": ["warn", "any"],
-    "wrap-regex": "warn",
+    // "wrap-regex": "warn",
 
     // IMPORT RULES
     "import/order": [
